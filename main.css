@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    --bg: #1E1B18;
+    --white: #FFFAFF;
+    --dark: #161412;
+    --acc1: #3E92CC;
+    --acc2: #D8315B;
+    background-color: var(--bg);
+    color: var(--white);
+    font-family: 'Roboto', "Ubuntu", sans-serif;
+}
+#Overlay{
+    position: fixed;
+    width: 100vw;
+    height: 0%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#hotbar{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 0;
+    display: flex;
+}
+#hotbar a{
+    font-size: 200%;
+    padding: 1% 0.3% 1% 0.3%;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: var(--acc2);
+}
+#hotbar a:hover{
+    scale: 1.4;
+}
+
+.spacer{
+    height: 10vh;
+}
+
+.info_block{
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: 8vh;
+    padding: 1% 2%;
+    border-radius: 15px;
+    font-size: 140%;
+    align-items: center;
+    align-content: center;
+    background-color: var(--acc1);
+    color: var(--white);
+}
+.info_block h2, .info_block h3{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.stars{
+    height: 5vh;
+}
+.stars img{
+    height: 5vh;
+    width: auto;
+}
+
+.title{
+    height: 20vh;
+    min-height: 150px;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    font-size: 250%;
+    color: var(--acc1);
+}
+.small_title{
+    height: 12vh;
+    min-height: 100px;
+    padding-top: 3vh;
+    padding-left: 14vw;
+    font-size: 140%;
+    color: var(--acc1);
+}
+
+.project_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2% 1%;
+    background-color: var(--dark);
+    border-radius: 15px;
+
+}
+.project{
+    background-color: var(--acc1);
+    border-radius: 15px;
+    height: 40vh;
+    width: 23vw;
+}
+.project h2{
+    padding: 2%;
+    text-align: center;
+}
+.project p{
+    padding: 3%;
+}
+.project img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project img:hover{
+    scale: 1.1;
+}
+
+#footer{
+    padding: 1%;
+    padding-left: 3%;
+    height: 5vh;
+    background-color: var(--dark);
+    display: flex;
+}
+#footer h2, #footer h3{
+    text-align: left;
+    color: var(--acc2);
+    flex-grow: 1;
+}
+.grower{
+    flex-grow: 5;
+}
